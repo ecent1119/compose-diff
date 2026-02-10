@@ -102,8 +102,6 @@ $ compose-diff main:docker-compose.yml feature:docker-compose.yml
 
 ## Get it
 
-**$25** — one-time purchase, standalone macOS/Linux/Windows binary.
-
 👉 [Download on Gumroad](https://ecent.gumroad.com/l/yxzolc)
 
 ---
