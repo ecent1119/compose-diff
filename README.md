@@ -100,6 +100,18 @@ $ compose-diff main:docker-compose.yml feature:docker-compose.yml
 
 ---
 
+## Common problems this solves
+
+- "docker compose diff between files"
+- "compare docker-compose.yml changes"
+- "yaml diff shows too many changes"
+- "git diff docker compose shows reformatting"
+- "docker compose file comparison tool"
+- "what changed in my compose file"
+- "compose file PR review difficult"
+
+---
+
 ## Get it
 
 👉 [Download on Gumroad](https://ecent.gumroad.com/l/yxzolc)
@@ -114,6 +126,10 @@ $ compose-diff main:docker-compose.yml feature:docker-compose.yml
 | **[envgraph](https://github.com/stackgen-cli/envgraph)** | Scan and validate environment variable usage |
 | **[dataclean](https://github.com/stackgen-cli/dataclean)** | Reset local dev data safely |
 | **[devcheck](https://github.com/stackgen-cli/devcheck)** | Local project readiness inspector |
+
+---
+
+If this tool saved you time, consider starring the repo.
 
 ---
 
