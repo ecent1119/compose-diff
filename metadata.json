@@ -1,0 +1,29 @@
+{
+  "product": {
+    "name": "compose-diff",
+    "tagline": "Semantic diff for Docker Compose files — understand what actually changed",
+    "description": "Parses Docker Compose files semantically, ignoring formatting and whitespace to show what actually changed. Groups changes by service and highlights breaking vs. non-breaking changes.",
+    "price": {
+      "amount": 9.00,
+      "currency": "USD",
+      "type": "one-time"
+    },
+    "category": "Developer Tools",
+    "tags": ["docker", "docker-compose", "diff", "devops", "cli"],
+    "platforms": ["darwin-amd64", "darwin-arm64", "linux-amd64", "linux-arm64", "windows-amd64"],
+    "requirements": {
+      "os": ["macOS", "Linux", "Windows"],
+      "dependencies": []
+    },
+    "links": {
+      "documentation": "https://github.com/stackgen-cli/compose-diff",
+      "support": "https://github.com/stackgen-cli/compose-diff/issues"
+    },
+    "metadata": {
+      "license": "Proprietary",
+      "author": "StackGen CLI",
+      "created": "2024-01-01",
+      "version": "1.0.0"
+    }
+  }
+}

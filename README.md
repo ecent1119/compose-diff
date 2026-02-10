@@ -24,6 +24,15 @@ Semantic diff for Docker Compose files — understand what actually changed.
 
 ---
 
+## New in v2.0
+
+- **Rules file support** — custom severity overrides, per-service ignores, path patterns
+- **Baseline mode** — save and compare against known-good configurations
+- **Category summaries** — view changes grouped by type (env, ports, images, volumes)
+- **Resolved config diffing** — diff after `docker compose config` resolution
+
+---
+
 ## Example output
 
 ```bash
@@ -93,9 +102,9 @@ $ compose-diff main:docker-compose.yml feature:docker-compose.yml
 
 ## Get it
 
-**$19** — one-time purchase, standalone macOS/Linux/Windows binary.
+**$25** — one-time purchase, standalone macOS/Linux/Windows binary.
 
-👉 [Download on Gumroad](YOUR_GUMROAD_LINK_HERE)
+👉 [Download on Gumroad](https://ecent.gumroad.com/l/yxzolc)
 
 ---
 
