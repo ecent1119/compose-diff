@@ -1,0 +1,20 @@
+services:
+  api:
+    image: node:20-alpine
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - API_KEY=secret
+    depends_on:
+      - db
+      - redis
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: mydb
+  redis:
+    image: redis:7-alpine
+volumes:
+  pgdata:
+  redisdata:
